@@ -1,30 +1,34 @@
 {
   "Employee": [
     {
+      "firstName": "Kevin",
+      "lastName": "Bacon",
+      "address": "1234 w nowhere",
+      "contact": null,
       "id": 1,
-      "firstName": "Raj",
-      "lastName": "Varma",
-      "contactNumber": 9845781256,
-      "code": "emp-001",
-      "address": "Pune",
-      "designation": "Devloper"
+      "designation": "KevinBacon@yahoo.com",
+      "city": "chicago",
+      "yourrole": "the best"
     },
     {
+      "firstName": "Chief",
+      "lastName": "Olufemi",
+      "address": "1254 s everywhere",
+      "contact": null,
+      "id": 2,
+      "designation": "CheifOlufemi@aol.com",
+      "city": "chicago",
+      "yourrole": "everything"
+    },
+    {
+      "firstName": "Micheal ",
+      "lastName": "Jackson",
+      "address": "166 s thriller ave",
+      "contact": null,
       "id": 3,
-      "firstName": "Rohit",
-      "lastName": "Sharma",
-      "contactNumber": 9132451202,
-      "code": "emp-003",
-      "address": "Pune",
-      "designation": "UI Devloper"
-    },
-    {
-      "id": 4,
-      "firstName": "Gopal",
-      "lastName": "Jadhav",
-      "designation": "Devloper",
-      "contact": "7854785478",
-      "address": "Pune"
+      "designation": "MichealJackson@hotmail.com",
+      "city": "indiana",
+      "yourrole": "moonwalk"
     }
   ]
 }

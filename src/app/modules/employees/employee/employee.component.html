@@ -9,27 +9,30 @@
   </div>
   <div class="row">
     <div class="col-md-12 form-group">
-      <input placeholder="Designation" class="form-control" [(ngModel)]="employeeService.currentEmployee.designation">
+      <input placeholder="Business Email" class="form-control" [(ngModel)]="employeeService.currentEmployee.designation">
     </div>
   </div>
   <div class="row">
-    <div class="col-md-6 form-group">
-      <input placeholder="Contact" class="form-control" [(ngModel)]="employeeService.currentEmployee.contact">
+    <div class="col-md-12 form-group">
+      <input placeholder="address" class="form-control" [(ngModel)]="employeeService.currentEmployee.address">
     </div>
-    <div class="col-md-6 form-group">
-      <input placeholder="Address" class="form-control" [(ngModel)]="employeeService.currentEmployee.address">
+    <div class="col-md-12 form-group">
+      <input placeholder="City" class="form-control" [(ngModel)]="employeeService.currentEmployee.city">
+    </div>
+    <div class="col-md-12 form-group">
+      <input placeholder="Your Role" class="form-control" [(ngModel)]="employeeService.currentEmployee.yourrole">
     </div>
   </div>
   <div class="row">
     <div class="col-md-8">
       <button class="btn btn-success btn-lg btn-block" (click)="createOrUpdateEmployee(employeeService.currentEmployee)">
-        <i class="fa fa-save"></i>
-        SAVE
+        
+        Submit
       </button>
     </div>
     <div class="col-md-4">
       <button class="btn btn-primary btn-lg btn-block" (click)="clearEmployee()">
-        <i class="fa fa-retweet"></i>
+        
         CLEAR
       </button>
     </div>
